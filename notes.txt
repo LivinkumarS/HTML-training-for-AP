@@ -1,0 +1,92 @@
+HTML, CSS, JS--> technologies used to create webpages.
+collection of webpages is a website.
+
+HTML---> Hyper Text Markup Language.
+
+Hyper Text ---> The text  that takes you to other destiny(links).
+Markup ---> Formatting and Structuring using Tags.
+
+
+HTML is the foundation of webpages. used to add, format and structure the contents.
+
+
+index.html---> landing page.
+
+
+
+Tags
+_____ 
+
+symbolic representation. we can wrap contents in it to format or structure it.
+
+<>-->opening
+</>---> closing
+
+
+Boiler plate.
+____________________
+
+Basic structure HTML.
+
+<!DOCTYPE html>----> the version of browser(latest version).
+
+html > head, body
+
+head---> metadata(data about the webpage) UTF-8(encoding tech), links and styling.
+body----> actual contents visible to users.
+
+
+HTML
+
+<></>---> no void tag
+<>---> void tag
+
+File path routing
+____________________
+
+Sibling--> ./
+child --> /
+parent---> ../
+
+
+commenting
+____________________
+
+<!--  --> piece of text that will not get executed
+
+
+
+
+Types of Tags
+____________________
+
+Heading tags--> h1-h6: (to add titles and headings in webpage)
+
+Paragraph Tags--> p : (to seperate the web contents)
+
+
+Unordered List: series of something . the list that will not have numbering.
+
+ul-- representation of unordered list, li---> list elements.
+
+
+Ordered List: series of something . the list that will  have numbering.
+
+ol-- representation of ordered list, li---> list elements.
+ 
+ Anchor Tags
+ ________________
+
+a---> used to create links. 
+
+Attributes---> href
+
+
+Image Tags
+________________
+
+used to add images to webpage.
+
+img---> void tag.
+
+attributes---> src, width, alt.
