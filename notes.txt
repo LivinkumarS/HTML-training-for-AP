@@ -90,3 +90,64 @@ used to add images to webpage.
 img---> void tag.
 
 attributes---> src, width, alt.
+
+
+Text Formatting(Typography)
+_____________________________
+
+bold---> b---> used to make content bolder
+i---> italic
+
+super script---> sup
+underline---> ins
+
+deleted---> del
+Highlight---> mark.
+
+
+Entities
+________________
+
+used to represent symbols and characters
+
+
+Table
+________________
+
+table, thead--->table head, tbody--> table body, tr--> table row, td---> table data, th---> table head element
+
+Attributes---> border
+
+
+break and horizontal line
+_____________________________
+
+br---> used to break the line and create new line.
+hr----> creating horizontal line.
+
+
+
+Forms ans Inputs
+________________
+
+we can use form to get informations from users.
+
+form---> to create a form
+
+input---> used to get a single piece of information
+
+label--->
+
+attributes---> id, name, value, placeholder
+
+Types
+________________
+
+1) text
+2) number 
+3)email 
+4) submit
+
+5) radio
+
+6)checkbox

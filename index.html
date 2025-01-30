@@ -24,7 +24,7 @@
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo natus fuga alias quaerat, ducimus ab
         aspernatur dolores cupiditate ipsam maiores nihil. Ad non, minus expedita quis laboriosam provident saepe nulla?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. Excepturi quidem dolores maxime
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, at. <br><br>Excepturi quidem dolores maxime
         perspiciatis sequi reprehenderit, inventore eveniet, veritatis sapiente adipisci facere laudantium aliquam
         impedit officiis, fugiat in.....</p>
 
@@ -67,7 +67,135 @@
 
     <!-- Image tag -->
 
-    <img src="./assets/images/prabash.jpeg" width="500" alt="Prabas Picture">
+    <!-- <img src="./assets/images/prabash.jpeg" width="500" alt="Prabas Picture"> -->
+
+
+
+    <!-- Text formatting -->
+
+
+    <p>
+        Lorem ipsum dolor sit, <b>amet</b> <i>consectetur</i> <sup>adipisicing</sup> 2<sup>2</sup> <ins>elit</ins>.
+        <del>Fugit</del>, <mark>natus</mark> provident. Architecto similique eligendi, veritatis rerum praesentium
+        accusantium fugit? Maxime voluptatem quasi neque reprehenderit eaque nihil vitae suscipit ex a.
+    </p>
+
+
+    <!-- Entities -->
+
+    <p>
+
+        &lt;del&gt;&lt;/del&gt;
+
+
+        Hi&nbsp;Hello
+
+        &dollar;
+        &#8377;
+
+
+    </p>
+
+    <!-- Table -->
+
+    <table border="1">
+
+        <thead>
+
+            <tr>
+
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Role</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Livinkumar</td>
+                <td>Frontend Developer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vikranth</td>
+                <td>Fullstack Developer</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dileep</td>
+                <td>Python Developer</td>
+
+            </tr>
+
+        </tbody>
+
+
+    </table>
+
+
+    <hr>
+
+
+    <!-- Input and Form -->
+
+
+    <form>
+
+        <label for="username">Name:</label>
+        <input type="text" placeholder="Albert" id="username" name="username">
+        <br>
+        <label for="sur-name">Sur-Name:</label>
+        <input type="text" placeholder="Albert" id="sur-name" name="sur-name">
+        <br>
+        <label for="mobile">Mobile:</label>
+        <input type="number" placeholder="1234" id="mobile" name="mobile">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="***@***.**" id="email" name="email">
+
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="******" id="password" name="password">
+
+        <br>
+
+        <label for="male">Male:</label>
+        <input type="radio" id="male" value="male" name="gender">
+
+        <label for="female">Female:</label>
+        <input type="radio" id="female" value="female" name="gender">
+
+        <label for="others">Others:</label>
+        <input type="radio" id="others" value="others" name="gender">
+
+        <br>
+
+        <label for="male">Subscribed to our channel?</label>
+        <input type="checkbox" id="male" value="male" name="gender">
+
+        <label for="female">Paid the Subscription fee?</label>
+        <input type="checkbox" id="female" value="female" name="gender">
+
+        <label for="others">Agree to our terms and conditions</label>
+        <input type="checkbox" id="others" value="others" name="gender">
+
+        <br>
+
+        <input type="reset">
+        <br>
+
+
+        <input type="color">
+        
+
+        <input type="submit">
+    </form>
+
 
 
 </body>
