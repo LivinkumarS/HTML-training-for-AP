@@ -161,7 +161,7 @@ Cascading Style Sheet. Used to add style to HTML contents.
 Types of way to insert CSS:(3 Types)
 _____________________________
 
-Inline styling
+Inline styling----> inside html element itself(more prioritization)
 Internal styling---> useinng <style></style>
 External styling---> <link rel="stylesheet" href="./style.css">
 
@@ -205,4 +205,26 @@ font-weight---> defines thickness of the text.
             font-family: rampo;
             src: url("./DancingScript-Regular.ttf");
         }
-text-align--> start, end, center
+text-align--> start, end, center.
+
+
+types of selectors
+____________________
+
+1)Tag name selector.
+2)class name selector----> .class name
+
+* a single element can have multiple class names.
+* a class name can be repeated to multiple elements.
+
+3)Id selector----> #idname (1)
+
+* a sinlgle element can have only one id
+* an id name cannot be repeated.
+
+4)sudo
+
+
+
+
+inline>id>class>tag
