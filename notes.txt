@@ -150,4 +150,59 @@ ________________
 
 5) radio
 
-6)checkbox
+6)checkbox 
+
+
+CSS 
+________________
+
+Cascading Style Sheet. Used to add style to HTML contents.
+
+Types of way to insert CSS:(3 Types)
+_____________________________
+
+Inline styling
+Internal styling---> useinng <style></style>
+External styling---> <link rel="stylesheet" href="./style.css">
+
+
+The syntax Of CSS:
+____________________
+
+selector{
+    property1: value;
+    property2: value;
+    .
+    .
+    .
+}
+
+
+
+CSS properties:
+________________
+
+color property:
+
+background-color---> three ways to declare a color
+i) name of the color.
+ii) RGB---> red, green, blue. rgb(three numbers). defines the ratio. 0-255.
+iii) hex code---> # follwed by 3 to 6 hex decimal code
+
+
+color---> color of the text.
+
+
+Text Properties 
+____________________
+
+font-size---> defines size of the text.
+
+(px,cm,inch)  1px=0.26mm.(%,em,rem, vh, vw)
+
+font-weight---> defines thickness of the text.
+        @font-face {
+            font-family: rampo;
+            src: url("./DancingScript-Regular.ttf");
+        }
+text-align--> start, end, center
