@@ -1,15 +1,41 @@
 div{
-    background-color: aqua;
-}
 
-.name{
-    background-color: brown;
-}
+    box-sizing: border-box;
 
-#anything{
-    background-color: black;
-}
+    width: 300px;
+    height: 300px;
+    /* padding: 20px; */
+    /* padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 40px; */
 
-p{
-    background-color: blueviolet;
+    /* padding: 20px 10px; TB LR */
+    padding: 10px 20px 30px 40px; /* T R B L */
+
+
+    /* border-top: 2px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+
+    border-color: black;
+    border-style: solid; */
+
+    /* border: 1px;
+    border-color: red;
+    border-style: solid; */
+
+    border: 1px solid red;
+
+
+    /* margin: 50px; */
+    /* margin-top: 30px;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ; */
+
+    /* margin: 10px 20px;
+    margin: 10px 20px 30px 40px; */
+
 }

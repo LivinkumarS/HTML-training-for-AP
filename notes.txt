@@ -228,3 +228,43 @@ ____________________
 
 
 inline>id>class>tag
+---------------------
+
+
+Box Modelling
+----------------
+
+
+each element in a webpage will be considered as a box.
+
+a. content
+-----------
+text, images or other media
+
+properties: width and height.
+
+b. Padding
+------------
+ additional space we can add to a box. space b/w content and the element's border.
+
+
+ c. Border
+ -----------
+ a space that wraps around the whole element.
+
+we can style it, add color to it.
+
+d. margin
+-----------
+the margin i the outmost layer, creates spacing between elements.
+
+e. Box-sizing
+----------------
+
+this property detrmines how the total width and height of an element are calculated.
+
+box-sizing: content-box;--->
+Total box width= content-width + Padding-size + Border
+
+box-sizing: border-box;
+Total box width = content-width
