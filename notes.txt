@@ -218,9 +218,34 @@ margin---> relative to parent's content width.
 font-size---> relative to it's parent's font-size.
 
 
+Em(em)
+------
+relative to parents font-size.
+
+.8em---> 80%
+1em---> 100% of parents fontsize
+1.4em---> 140%
+2em---> 200% of parents fontsize.
 
 
+Rem(Root Em)
+-----------
+relative to root element's font-size(html(16px))
 
+
+vw(viewport width)
+--------------------
+to declare width. relative to the screen's width.
+
+100vw---> 100% of screen's width 
+90vw---> 90% of screen's width
+
+vh(viewport height)
+---------------------
+to declare height. relative to the screen's height
+
+100vh---> 100% of screen height
+90vh---> 90% of screen height
 
 
 
@@ -246,12 +271,19 @@ ____________________
 * a sinlgle element can have only one id
 * an id name cannot be repeated.
 
-4)sudo
+
+Special selectors
+---------------------
+universal Selector (*)- selects all the elemnts in HTML.
+descendant selector( )--> selects all the descendants.
+direct descendant selector (or) child selector(>)---> selects only the direct descendent
+grouping selector (,)---> used to group the selectors.
 
 
 
 
-inline>id>class>tag
+
+inline>id>class>tag>*
 ---------------------
 
 

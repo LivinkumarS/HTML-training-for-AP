@@ -1,19 +1,13 @@
-.parent{
-    border: 1px solid black;
+/* .parent p{ selects p tag which is descendant of .parent tag
+    color: aqua;
+    font-size: 1.5rem;
+    font-weight: bolder;
+} */
 
-    height: 500px;
 
-}
-
-.child{
-    border: 1px solid black;
-    width: 50%;  /* 75% of it's parent's content-width */
-    height: 50%;
-
-    padding: 10%;
-    margin: 2%;
-
-    font-size: 200%;
-
+body>p , .parent>p, body>h1{ 
+    color: aqua;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
