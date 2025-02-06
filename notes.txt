@@ -200,6 +200,30 @@ font-size---> defines size of the text.
 
 (px,cm,inch)  1px=0.26mm.(%,em,rem, vh, vw)
 
+
+Percentage(%)
+--------------
+
+the value out of 100 is percentage.(80%)
+
+relative to the parent of it.
+
+width, height, margin, padding, font-size.
+
+width---> relative to it's parent's content width
+height---> relative to it's parent's content height 
+padding---> relative to parent's content width.
+margin---> relative to parent's content width.
+
+font-size---> relative to it's parent's font-size.
+
+
+
+
+
+
+
+
 font-weight---> defines thickness of the text.
         @font-face {
             font-family: rampo;
@@ -256,7 +280,7 @@ we can style it, add color to it.
 
 d. margin
 -----------
-the margin i the outmost layer, creates spacing between elements.
+the margin is the outmost layer, creates spacing between elements.
 
 e. Box-sizing
 ----------------
