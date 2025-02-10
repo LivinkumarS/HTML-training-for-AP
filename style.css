@@ -1,13 +1,62 @@
-/* .parent p{ selects p tag which is descendant of .parent tag
+.parent{
+    height: 60vh;
+    width: 50vw;
+    background-color: red;
+    border: 1px solid gray;
+}
+
+.parent:hover{
+    background-color: aqua;
+}
+
+.name{
+    background-color: blue;
+}
+
+.name:focus{
+    background-color: blueviolet;
+}
+
+/* 
+li:first-child{
     color: aqua;
-    font-size: 1.5rem;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+li:last-child{
+    color: aqua;
+    font-size: 30px;
     font-weight: bolder;
 } */
 
 
-body>p , .parent>p, body>h1{ 
+li:nth-child(odd){
     color: aqua;
-    font-size: 1.5rem;
+    font-size: 30px;
     font-weight: bolder;
 }
 
+
+/* p::first-letter{
+    color: brown;
+    font-size: 40px;
+    font-weight: bolder;
+} */
+
+
+/* p::first-line{
+    color: brown;
+    font-size: 40px;
+    font-weight: bolder;
+} */
+
+h1::before{
+    content: "Good ";
+    background-color: aqua;
+}
+
+h1::after{
+    content: " For All";
+    background-color: aqua;
+}

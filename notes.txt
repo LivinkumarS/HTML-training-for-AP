@@ -280,6 +280,23 @@ direct descendant selector (or) child selector(>)---> selects only the direct de
 grouping selector (,)---> used to group the selectors.
 
 
+pseudo-selector  (  )
+-------------------
+
+used to select an element in particular state (or) to select a particular part of an element.
+
+1) Pseudo Classes (:) - to select an element in particular state.
+
+Hover -> When we Hover over the element.
+Focus -> when an input field is focused.
+first-child, last-child -> used to select first and last child.
+nth-child() --> used to select a partcular numbered child element.(odd, even)
+
+2) Pseudo-elements(::)--> specific part of an element.
+first-letter---> selects only the first letter.
+first-line---> selects the entire first line
+before---> used to add and style content before the actual content
+after-->used to add and style content after the actual content
 
 
 
