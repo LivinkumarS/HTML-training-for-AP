@@ -1,62 +1,22 @@
-.parent{
-    height: 60vh;
-    width: 50vw;
-    background-color: red;
-    border: 1px solid gray;
+.box{
+  width: 1000px;
+  height: 700px;
+  background-color: red;
+  position: relative;
+
+
 }
 
-.parent:hover{
-    background-color: aqua;
-}
+.child{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
-.name{
-    background-color: blue;
-}
+  transform: translate(-50%,-50%);
 
-.name:focus{
-    background-color: blueviolet;
-}
-
-/* 
-li:first-child{
-    color: aqua;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-li:last-child{
-    color: aqua;
-    font-size: 30px;
-    font-weight: bolder;
-} */
-
-
-li:nth-child(odd){
-    color: aqua;
-    font-size: 30px;
-    font-weight: bolder;
 }
 
 
-/* p::first-letter{
-    color: brown;
-    font-size: 40px;
-    font-weight: bolder;
-} */
-
-
-/* p::first-line{
-    color: brown;
-    font-size: 40px;
-    font-weight: bolder;
-} */
-
-h1::before{
-    content: "Good ";
-    background-color: aqua;
-}
-
-h1::after{
-    content: " For All";
-    background-color: aqua;
-}

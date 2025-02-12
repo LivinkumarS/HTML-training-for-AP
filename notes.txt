@@ -341,3 +341,65 @@ Total box width= content-width + Padding-size + Border
 
 box-sizing: border-box;
 Total box width = content-width
+
+
+
+
+Positioning
+________________
+
+used to position an element on webpage using "position" property.
+
+1)static
+2)relative
+3)absolute
+4)fixed
+5)sticky
+
+Static (default)
+-----------
+
+the element follows the document flow. no changes
+
+Relative
+-----------
+
+the element positioned relative to its actual position. 
+
+the element will not be removed from the document flow.
+
+Absolute 
+------------
+
+the element is removed from the normal flow and positioned relative to its nearest positioned ancestor(relative, absolute or fixed). if no such ancestor exists, it will be positioned relative to the html element.
+
+nearest positioned ancestor ---> the nearest ancestor which has position property as relative, absolute or fixed.
+
+(position: absolute or relative or fixed)
+
+
+Fixed
+----------
+
+In this Positioning also the element removed from document flow.
+
+It will stay at the position specified forever. relative to viewport.
+
+
+Sticky 
+---------
+
+Hybrid of relative and fixed.
+the element will not be removed from the document flow.
+
+when it reaches the specified destiny, it will become sticky.
+
+
+Transform
+____________________
+
+Translate----> used to move an element.(translateX, translateY, traslate).
+
+scale----->
+
+rotate---->
